@@ -1,13 +1,6 @@
-interface Task {
-    name: string;
-    status: TaskStatus
-}
+import { Task } from "./types/Task.js";
+import { TaskStatus } from "./types/TaskStatus.js";
 
-enum TaskStatus {
-    Todo,
-    InProgress,
-    Done
-}
 
 let tasks: Task[] = [];
 
